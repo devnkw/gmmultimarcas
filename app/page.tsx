@@ -5,20 +5,35 @@ export default function Home() {
     <main>
       <header className="nav shell">
         <a className="brand" href="#inicio" aria-label="Goiânia Multimarcas — início"><img src="/logo-gm.jpeg" alt="Goiânia Multimarcas" /></a>
-        <nav aria-label="Navegação principal"><a href="#como-funciona">Como funciona</a><a href="#vantagens">Por que a GM</a></nav>
+        <nav aria-label="Navegação principal"><a href="#aumente-sua-renda">Aumente sua renda</a><a href="#vantagens">Por que a GM</a></nav>
         <a className="button button-small" href={instagram} target="_blank" rel="noreferrer">Ver peças no Instagram</a>
       </header>
       <section className="hero" id="inicio"><div className="shell hero-grid">
         <div className="hero-copy">
           <p className="eyebrow">Atacado multimarcas • Goiânia → todo o Brasil</p>
-          <h1>O jeans que gira.<br /><em>O atacado que entende.</em></h1>
-          <p className="lead">Curadoria multimarcas e peças de marca própria para lojistas que buscam variedade, qualidade e novidades que vendem de verdade.</p>
-          <div className="hero-actions"><a className="button" href={instagram} target="_blank" rel="noreferrer">Conhecer o atacado <span>↗</span></a><a className="text-link" href="#como-funciona">Entenda como funciona ↓</a></div>
+          <h1>Roupas que vendem.<br /><em>Renda que cresce.</em></h1>
+          <p className="lead">Compre roupas de alta qualidade no atacado e transforme cada peça em uma oportunidade de aumentar sua renda. A GM cuida da curadoria para você começar com mais segurança.</p>
+          <div className="hero-actions"><a className="button" href={instagram} target="_blank" rel="noreferrer">Quero começar a revender <span>↗</span></a><a className="text-link" href="#aumente-sua-renda">Veja essa oportunidade ↓</a></div>
           <div className="trust-row" aria-label="Diferenciais"><span>Curadoria especializada</span><span>Marca própria</span><span>Atendimento próximo</span></div>
         </div>
         <div className="hero-art" aria-label="Seleção de jeans da Goiânia Multimarcas"><div className="fabric fabric-one" /><div className="fabric fabric-two" /><div className="gold-stamp"><strong>GM</strong><small>ATACADO</small></div><p>Seu estoque com mais<br />variedade e personalidade.</p></div>
       </div></section>
-      <section className="video-intro shell" id="como-funciona"><p className="eyebrow">A Layanne explica</p><h2>Veja como comprar no atacado com a GM.</h2><div className="video-placeholder" aria-label="Espaço reservado para o vídeo da Layanne"><button type="button" aria-label="Vídeo em breve"><span>▶</span></button><p>VSL DA LAYANNE</p><small>O vídeo será inserido aqui</small></div></section>
+      <section className="income shell" id="aumente-sua-renda">
+        <div className="income-copy">
+          <p className="eyebrow">Uma oportunidade que cabe nos seus planos</p>
+          <h2>Transforme bom gosto em uma nova fonte de renda.</h2>
+          <p className="income-lead">Você não precisa fabricar, criar uma coleção ou começar com uma estrutura enorme. Com a Goiânia Multimarcas, você tem acesso a roupas de alta qualidade no atacado para montar seu estoque e começar a vender com mais confiança.</p>
+          <p>Escolha peças com alto valor percebido, apresente para suas clientes e construa uma renda extra — ou dê o próximo passo para transformar a revenda no seu próprio negócio.</p>
+          <a className="button" href={instagram} target="_blank" rel="noreferrer">Quero conhecer as peças ↗</a>
+        </div>
+        <div className="income-panel">
+          <p className="income-kicker">Comece do seu jeito</p>
+          <div><strong>01</strong><span><b>Escolha peças que encantam</b>Curadoria multimarcas e marca própria com qualidade que suas clientes percebem.</span></div>
+          <div><strong>02</strong><span><b>Venda para a sua rede</b>Atenda pelo Instagram, WhatsApp, presencialmente ou na sua própria loja.</span></div>
+          <div><strong>03</strong><span><b>Reinvista e cresça</b>Use o resultado das vendas para ampliar seu mix e aumentar o potencial de renda.</span></div>
+          <p className="income-note">O seu ritmo. As suas clientes. Uma parceira de atacado para crescer junto.</p>
+        </div>
+      </section>
 
       <section className="steps" id="vantagens"><div className="shell">
         <div className="section-head"><div><p className="eyebrow">Simples para começar</p><h2>Da escolha das peças<br />à chegada na sua loja.</h2></div><p>A gente facilita o processo para você dedicar energia ao que importa: vender bem e ver o estoque girar.</p></div>
